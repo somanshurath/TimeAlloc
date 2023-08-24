@@ -1,17 +1,40 @@
 *{
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+     scrollbar-width: thin;
+     scrollbar-color: #444e4e #2C3333;
+}
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #2C3333;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #444e4e;
+    border-radius: 20px;
+    border: 3px solid #2C3333;
+}
+.bold{
+    font-weight: 800;
 }
 body{
     background: #2C3333;
     color: #eaf4f1
 }
 table{
-    margin: 1em auto;
-    width: 100%;
+    margin: 1em;
+    width: 95%;
     position: static;
     border-collapse: collapse;
     table-layout: fixed;
+}
+table>caption{
+    font-size: 1.5rem;
+    font-weight: 100;
+    padding-bottom: 1rem;
 }
 th{
     width: 3rem;
@@ -31,8 +54,15 @@ td{
 tr{
     height: 3.2rem;
 }
+tr>th{
+    font-weight: 300;
+}
+thead>tr>th{
+    font-weight: 500;
+}
 .col1{
-    width: 10%;
+    width: 2rem;
+    font-size: 1.2rem;
 }
 .t3>.m, .t3>.w, .t3>.f{
     background: #205295;
@@ -54,4 +84,28 @@ tr{
 }
 .t2>.t, .t11>.f{
     background: #2C74B3;
+}
+.t5>.w,.t5>.f{
+    background: #36639f;
+}
+.m:hover,.t:hover,.w:hover,.th:hover,.f:hover,.s:hover{
+    outline: #eaf4f1 solid 0.1rem;
+    filter: brightness(1.2);
+}
+footer{
+    background-color: #202525;
+    font-size: 1rem;
+    font-weight: 100;
+    padding: 1rem 0;
+    text-align: center;
+}
+.ft-name{
+    padding-bottom: 0.5rem;
+}
+.img-logo-ft{
+    padding: 0 0.5rem;
+    filter: grayscale(0.5);
+}
+.img-logo-ft:hover{
+    filter: brightness(1.5);
 }
