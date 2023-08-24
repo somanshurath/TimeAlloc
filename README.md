@@ -1,3 +1,2 @@
-# timetable
-Year 2 Sem 1 Timetable
-Work under progress
+# Time Alloc
+Time Allocation System - Timetable generator (work in progress)
