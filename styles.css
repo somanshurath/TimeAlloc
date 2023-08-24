@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background: #2C3333;
+    color: #eaf4f1
+}
+table{
+    margin: 1em auto;
+    width: 100%;
+    position: static;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+th{
+    width: 3rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+tbody{
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-align: center;
+}
+td{
+    width: 2rem;
+}
+tr{
+    height: 3.2rem;
+}
+.col1{
+    width: 10%;
+}
+.t3>.m, .t3>.w, .t3>.f{
+    background: #205295;
+}
+.t4>.m, .t4>.w, .t4>.f{
+    background: #205295;
+}
+.t9>.t,.t9>.th, .t9>.s{
+    background: #205295;
+}
+.t10>.t,.t10>.th, .t10>.s{
+    background: #205295;
+}
+.t11>.t,.t11>.th, .t11>.s{
+    background: #205295;
+}
+.t8>.t, .t8>.w, .t8>.th, .t8 >.f{
+    background: #144272;
+}
+.t2>.t, .t11>.f{
+    background: #2C74B3;
+}
