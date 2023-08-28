@@ -82,7 +82,7 @@ thead>tr>th{
 .t8>.t, .t8>.w, .t8>.th, .t8 >.f{
     background: #144272;
 }
-.t2>.t, .t11>.f{
+.t2>.t, .t11>.f, .t5>.m{
     background: #2C74B3;
 }
 .t5>.w,.t5>.f{
