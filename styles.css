@@ -1,111 +1,114 @@
-*{
+* {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-     scrollbar-width: thin;
-     scrollbar-color: #444e4e #2C3333;
+    scrollbar-width: thin;
+    scrollbar-color: #444e4e #2c3333;
 }
 *::-webkit-scrollbar {
     width: 12px;
 }
 
 *::-webkit-scrollbar-track {
-    background: #2C3333;
+    background: #2c3333;
 }
 
 *::-webkit-scrollbar-thumb {
     background-color: #444e4e;
     border-radius: 20px;
-    border: 3px solid #2C3333;
+    border: 3px solid #2c3333;
 }
-.bold{
+.bold {
     font-weight: 800;
 }
-body{
-    background: #2C3333;
-    color: #eaf4f1
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: #2c3333;
+    color: #eaf4f1;
 }
-table{
+table {
     margin: 1em;
     width: 95%;
     position: static;
     border-collapse: collapse;
     table-layout: fixed;
 }
-table>caption{
+table > caption {
     font-size: 1.5rem;
     font-weight: 100;
     padding-bottom: 1rem;
 }
-th{
+th {
     width: 3rem;
     font-size: 1.5rem;
     font-weight: 500;
     text-align: center;
     padding-bottom: 1rem;
 }
-tbody{
+tbody {
     font-size: 1.2rem;
     font-weight: 300;
     text-align: center;
 }
-td{
+td {
     width: 2rem;
 }
-tr{
+tr {
     height: 3.2rem;
 }
-tr>th{
+tr > th {
     font-weight: 300;
 }
-thead>tr>th{
+thead > tr > th {
     font-weight: 500;
 }
-.col1{
+.col1 {
     width: 2rem;
     font-size: 1.2rem;
 }
-.t3>.m, .t3>.w, .t3>.f{
-    background: #205295;
-}
-.t4>.m, .t4>.w, .t4>.f{
-    background: #205295;
-}
-.t9>.t,.t9>.th, .t9>.s{
-    background: #205295;
-}
-.t10>.t,.t10>.th, .t10>.s{
-    background: #205295;
-}
-.t11>.t,.t11>.th, .t11>.s{
-    background: #205295;
-}
-.t8>.t, .t8>.w, .t8>.th, .t8 >.f{
-    background: #144272;
-}
-.t2>.t, .t11>.f, .t5>.m{
-    background: #2C74B3;
-}
-.t5>.w,.t5>.f{
-    background: #36639f;
-}
-.m:hover,.t:hover,.w:hover,.th:hover,.f:hover,.s:hover{
+
+.m:hover,
+.t:hover,
+.w:hover,
+.th:hover,
+.f:hover,
+.s:hover {
     outline: #eaf4f1 solid 0.1rem;
     filter: brightness(1.2);
 }
-footer{
+footer {
+    margin-top: auto;
+    bottom: 0;
     background-color: #202525;
     font-size: 1rem;
     font-weight: 100;
     padding: 1rem 0;
     text-align: center;
 }
-.ft-name{
+.ft-name {
     padding-bottom: 0.5rem;
 }
-.img-logo-ft{
+.img-logo-ft {
     padding: 0 0.5rem;
     filter: grayscale(0.5);
 }
-.img-logo-ft:hover{
+.img-logo-ft:hover {
     filter: brightness(1.5);
+}
+
+.LAB {
+    background: #2c74b3;
+}
+
+.TUT {
+    background: #144272;
+}
+
+.LEC {
+    background: #205295;
+}
+
+.col1 {
+    font-size: 0.8rem;
 }
