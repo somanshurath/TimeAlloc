@@ -97,6 +97,12 @@ footer {
     filter: brightness(1.5);
 }
 
+.MISS {
+    background: #2c3333;
+    color: #b4bebe;
+
+}
+
 .LAB {
     background: #2c74b3;
 }
